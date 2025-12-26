@@ -56,14 +56,14 @@ CI/CD pipelines were implemented to automatically test and deploy changes, reinf
   - GitHub Actions handle build, test, and deployment
 
 ## ▶️ Running the Project
-Backend
+### Backend
 1. Clone the backend repository
 2. Update ARM parameters as needed
 3. Push changes to GitHub
 4. GitHub Actions:
   - Runs Python tests
   - Packages and deploys Azure Function + Cosmos DB
-Frontend
+### Frontend
 1. Clone the frontend repository
 2. Update HTML/CSS/JavaScript
 3. Push changes to GitHub
@@ -71,5 +71,5 @@ Frontend
   - Uploads files to Azure Storage
   - Purges Azure CDN cache
 
-📷 Preview
+## 📷 Preview
 (Optional: Add a screenshot or terminal recording here)
