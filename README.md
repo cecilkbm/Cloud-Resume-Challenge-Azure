@@ -55,7 +55,7 @@ CI/CD pipelines were implemented to automatically test and deploy changes, reinf
   - ARM templates define backend infrastructure
   - GitHub Actions handle build, test, and deployment
 
-▶️ Running the Project
+## ▶️ Running the Project
 Backend
 1. Clone the backend repository
 2. Update ARM parameters as needed
