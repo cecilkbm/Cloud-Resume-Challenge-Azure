@@ -72,4 +72,7 @@ CI/CD pipelines were implemented to automatically test and deploy changes, reinf
   - Purges Azure CDN cache
 
 ## 📷 Preview
-(Optional: Add a screenshot or terminal recording here)
+<img width="1858" height="1119" alt="image" src="https://github.com/user-attachments/assets/3b31d8bf-5ff0-40a4-b5c2-4736ff4de98e" />
+<img width="1852" height="1109" alt="image (1)" src="https://github.com/user-attachments/assets/8db25cd0-50cd-4f85-911c-a6202c093953" />
+
+
