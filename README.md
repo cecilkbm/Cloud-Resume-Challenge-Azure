@@ -4,11 +4,11 @@ An end-to-end Azure project that transforms a traditional resume into a producti
 This project demonstrates practical skills across cloud fundamentals, infrastructure as code, serverless computing, CI/CD, and secure cloud architecture — all built and deployed on Microsoft Azure.
 
 ## ✨ Technologies
-    - Microsoft Azure
-    - HTML / CSS / JavaScript
-    - Azure Storage (Static Website)
-    - Azure CDN (HTTPS)
-    - Azure DNS
+ - Microsoft Azure
+ - HTML / CSS / JavaScript
+ - Azure Storage (Static Website)
+ - Azure CDN (HTTPS)
+ - Azure DNS
     - Azure Functions (Python)
     - Azure Cosmos DB (Table API, serverless)
     - ARM Templates (Infrastructure as Code)
