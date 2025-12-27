@@ -1,7 +1,8 @@
 # ☁️ Cloud Resume Challenge (Azure)
 An end-to-end Azure project that transforms a traditional resume into a production-ready cloud application, following the Cloud Resume Challenge requirements.
-
 This project demonstrates practical skills across cloud fundamentals, infrastructure as code, serverless computing, CI/CD, and secure cloud architecture — all built and deployed on Microsoft Azure.
+
+---
 
 ## ✨ Technologies
  - Microsoft Azure
