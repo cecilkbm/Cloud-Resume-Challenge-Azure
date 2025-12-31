@@ -4,7 +4,7 @@ This project demonstrates practical skills across cloud fundamentals, infrastruc
 
 ---
 
-## ✨ Technologies
+## Technologies
  - Microsoft Azure
  - HTML / CSS / JavaScript
  - Azure Storage (Static Website)
@@ -15,8 +15,8 @@ This project demonstrates practical skills across cloud fundamentals, infrastruc
  - ARM Templates (Infrastructure as Code)
  - GitHub Actions (CI/CD)
  - Python (backend logic & tests)
-
-## 🚀 Features
+#
+## Features
  - Resume hosted as a static website on Azure Storage
  - Styled HTML/CSS resume (no PDFs or Word docs)
  - Secure HTTPS delivery using Azure CDN
@@ -27,19 +27,20 @@ This project demonstrates practical skills across cloud fundamentals, infrastruc
  - Infrastructure fully defined using ARM templates
  - Automated CI/CD pipelines for both frontend and backend
  - Unit tests for backend Python code
-
+#
 ## 🧠 The Process
 This project began as a simple static resume, but evolved into a full cloud application.
 
 Rather than manually configuring services in the Azure Portal, I defined all backend resources using Infrastructure as Code, ensuring deployments were repeatable and auditable.
 
 The visitor counter introduced real-world architectural decisions:
- - JavaScript communicates with an API — not directly with the database
- - Azure Functions handle logic and validation
- - Cosmos DB provides low-cost, serverless persistence
+  - JavaScript communicates with an API — not directly with the database
+  - Azure Functions handle logic and validation
+  - Cosmos DB provides low-cost, serverless persistence
+    
 CI/CD pipelines were implemented to automatically test and deploy changes, reinforcing best practices around automation, security, and reliability.
-
-## 🧭 Architecture Overview
+#
+## Architecture Overview
  - Frontend
   - HTML/CSS/JavaScript resume
   - Hosted on Azure Storage Static Website
@@ -58,19 +59,19 @@ CI/CD pipelines were implemented to automatically test and deploy changes, reinf
 
 ## ▶️ Running the Project
 ### Backend
-1. Clone the backend repository
-2. Update ARM parameters as needed
-3. Push changes to GitHub
-4. GitHub Actions:
-  - Runs Python tests
-  - Packages and deploys Azure Function + Cosmos DB
+ 1. Clone the backend repository
+ 2. Update ARM parameters as needed
+ 3. Push changes to GitHub
+ 4. GitHub Actions:
+    - Runs Python tests
+    - Packages and deploys Azure Function + Cosmos DB
 ### Frontend
-1. Clone the frontend repository
-2. Update HTML/CSS/JavaScript
-3. Push changes to GitHub
-4. GitHub Actions:
-  - Uploads files to Azure Storage
-  - Purges Azure CDN cache
+ 1. Clone the frontend repository
+ 2. Update HTML/CSS/JavaScript
+ 3. Push changes to GitHub
+ 4. GitHub Actions:
+    - Uploads files to Azure Storage
+    - Purges Azure CDN cache
 
 ## 📷 Preview
 <img width="1858" height="1119" alt="image" src="https://github.com/user-attachments/assets/3b31d8bf-5ff0-40a4-b5c2-4736ff4de98e" />
